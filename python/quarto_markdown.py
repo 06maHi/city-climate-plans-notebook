@@ -4,9 +4,9 @@ from bs4 import BeautifulSoup
 import re
 
 # variables
-input_directory = '/Users/ad7588/projects/semanticclimate/semanticclimate_input'
-output_directory = '/Users/ad7588/projects/semanticclimate/semanticclimate_output'
-quarto_directory = '/Users/ad7588/projects/semanticclimate'
+input_directory = '/Users/rs775/Downloads/city-climate-plans-notebook/semanticclimate_input'
+output_directory = '/Users/rs775/Downloads/city-climate-plans-notebook/semanticclimate_output'
+quarto_directory = '/Users/rs775/Downloads/city-climate-plans-notebook'
 
 # function to transform HTML to Markdown
 def html_to_markdown(html):
